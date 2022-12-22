@@ -1,14 +1,18 @@
 import styled from 'styled-components';
 
 const FormTag = styled.form`
-  margin-top: 150px;
+  margin-top: 65px;
   display: flex;
+  font-size:50px;
+  font-weight: bold;
+  color: black;
   flex-direction: column;
   align-items: center;
 `;
 const InputTag = styled.input`
   width: 500px;
   height: 70px;
+  margin-top: 40px;
   border: 3px solid transparent;
   border-radius: 15px;
   text-align: center;
@@ -40,6 +44,7 @@ const Form = ({ onSubmit, onChange, value }) => {
     <h1> Todo listing</h1>
   return (
     <FormTag onSubmit={onSubmit}>
+        Todays Plan
       <InputTag
         onChange={onChange}
         value={value}

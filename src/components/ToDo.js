@@ -32,6 +32,7 @@ const Button = styled.button`
   background: red;
   color: white;
   padding: 3px;
+  cursor:pointer;
   &:first-child {
     width: 50px;
     margin-bottom: 3px;

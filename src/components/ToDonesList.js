@@ -28,6 +28,7 @@ const Modal = styled.div`
   top: 1px;
   display: flex;
   flex-direction: column;
+  cursor:pointer;
   width: 100%;
   & span {
     border-radius: 15px 15px 0 0;

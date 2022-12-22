@@ -24,7 +24,6 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 function App() {
-  <h1> to do</h1>
   return (
     <>
       <GlobalStyles />

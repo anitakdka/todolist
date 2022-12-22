@@ -14,7 +14,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   background-color:  #12343b;
-  border: 1px solid blue;
+  border: 1px solid black;
   overflow: auto;
   padding-bottom: 30px;
 `;

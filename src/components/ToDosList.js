@@ -17,6 +17,7 @@ const List = styled.ul`
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.9);
   padding: 5px 10px 10px 10px;
+  cursor:pointer;
   background: rgba(255, 255, 255, 1);
 `;
 
